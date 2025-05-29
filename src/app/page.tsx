@@ -6,6 +6,13 @@ import { useState } from "react";
 
 import { authClient } from "@/lib/auth-client";
 
+/**
+ * Renders the main authentication UI, allowing users to sign up, log in, and log out.
+ *
+ * Displays a signup form for new users and a login form for existing users when no session is active. If a user is logged in, shows the user's name and a logout button.
+ *
+ * @remark Alerts are shown for authentication success or failure.
+ */
 export default function Home() {
   const { data: session } = authClient.useSession();
 
