@@ -100,7 +100,7 @@ export const AgentsForm = ({ onSuccess, onCancel, initialValues }: Props) => {
               <FormControl>
                 <Textarea
                   {...field}
-                  placeholder="You are a helpful math assisant that can asnwer questions and 
+                  placeholder="You are a helpful math assistant that can answer questions and 
                 help with assignments"
                 />
               </FormControl>
