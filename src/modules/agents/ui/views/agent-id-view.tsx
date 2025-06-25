@@ -67,7 +67,7 @@ export const AgentIdView = ({ agentId }: Props) => {
       <UpdateAgentDialog
         open={updateAgentDialogOpen}
         onOpenChange={setUpdateAgentDialogOpen}
-        initalValues={data}
+        initialValues={data}
       />
       <div className="flex-1 py-4 px-4 md:px-8 flex flex-col gap-y-4">
         <AgentIdViewHeader
