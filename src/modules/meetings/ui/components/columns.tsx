@@ -37,7 +37,7 @@ const statusColorMap = {
   active: "bg-blue-500/20 text-blue-800 border-blue-800/5",
   completed: "bg-emerald-500/20 text-emerald-800 border-emerald-800/5",
   processing: "bg-rose-500/20 text-rose-800 border-rose-800/5",
-  cancelled: "bg-gray-500/20 text-gray-800 border-yelgraylow-800/5",
+  cancelled: "bg-gray-500/20 text-gray-800 border-gray-800/5",
 };
 
 export const columns: ColumnDef<MeetingGetMany[number]>[] = [
