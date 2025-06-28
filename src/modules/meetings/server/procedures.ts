@@ -9,7 +9,7 @@ import {
   MIN_PAGE_SIZE,
 } from "@/constants";
 import { TRPCError } from "@trpc/server";
-import { agents, meetings, meetingStatus } from "@/db/schema";
+import { agents, meetings } from "@/db/schema";
 import { meetingsInsertSchema, meetingsUpdateSchema } from "../schemas";
 import { MeetingStatus } from "../types";
 
