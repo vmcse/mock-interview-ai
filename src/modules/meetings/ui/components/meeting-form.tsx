@@ -20,7 +20,6 @@ import { toast } from "sonner";
 import { MeetingGetOne } from "../../types";
 import { useState } from "react";
 import { CommandSelect } from "@/components/command-select";
-import { Divide } from "lucide-react";
 import { CreateAgentDialog } from "@/modules/agents/ui/components/agents-create-dialog";
 
 interface Props {
