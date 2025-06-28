@@ -95,7 +95,7 @@ export const columns: ColumnDef<MeetingGetMany[number]>[] = [
   },
   {
     accessorKey: "duration",
-    header: "duration",
+    header: "Duration",
     cell: ({ row }) => (
       <Badge
         variant="outline"
