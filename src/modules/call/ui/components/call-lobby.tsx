@@ -67,7 +67,7 @@ export const CallLobby = ({ onJoin }: Props) => {
         >
           <div className="flex flex-col gap-y-2 text-center">
             <h6 className="text-lg font-medium">Ready to join?</h6>
-            <p className="text=sm">Set up your call before joining</p>
+            <p className="text-sm">Set up your call before joining</p>
           </div>
           <VideoPreview
             DisabledVideoPreview={
